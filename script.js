@@ -1,5 +1,9 @@
 function makeTimer() {
 
+    var textToShow = ['kyl turn 19 in...', 'kyl birthday in... ', 'kyl is madly in love with nala. we all know that', 'i hope nala always a lot of happpiness', 'love u, nala','actually itt is not supposed to change text each second']
+    $(document).ready(function() {
+        $("p").html(textToShow[Math.floor(Math.random()*textToShow.length)]);
+    });
 			var endTime = new Date("December 31, 2023 17:00:00 UTC");			
 			var endTime = (Date.parse(endTime)) / 1000;
 
