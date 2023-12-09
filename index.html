@@ -9,14 +9,23 @@
 </head>
 <body>
 <style>
-.content {
-  max-width: 500px;
-  margin: auto;
+.container {
+  height: 100%;
+  position: relative;
+  border: 3px solid green;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 </style>
 <!-- partial:index.partial.html -->
-<div class="content">
+<div class="center">
 	<div id="timer">
+		<p id="sizes"></p>
 		<div id="days"></div>
 		<div id="hours"></div>
 		<div id="minutes"></div>
