@@ -1,6 +1,6 @@
 function makeTimer() {
 
-    var textToShow = ['kyl turn 19 in...', 'kyl birthday in... ', 'kyl is madly in love with nala. we all know that', 'i hope nala always a lot of happpiness', 'love u, nala','actually itt is not supposed to change text each second']
+    var textToShow = ['kyl turn 19 in...', 'kyl turn 19 in...']
     $(document).ready(function() {
         $("p").html(textToShow[Math.floor(Math.random()*textToShow.length)]);
     });
