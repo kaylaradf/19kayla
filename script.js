@@ -1,6 +1,6 @@
 function makeTimer() {
 
-    var textToShow = ['kyl turn 19 in...', 'kyl turn 19 in...']
+    var textToShow = ['kyl turn 20 in...', 'kyl turn 20 in...']
     $(document).ready(function() {
         $("p").html(textToShow[Math.floor(Math.random()*textToShow.length)]);
     });
